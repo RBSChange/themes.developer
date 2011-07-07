@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change:templates xmlns:change="http://www.rbs.fr/change/1.0/schema">
+	<change:template id="simple">
+		<div id="top" orient="vertical">
+			<div id="contentLocation" orient="horizontal">
+				<div id="content" orient="vertical">
+					<change:content id="content-block" />
+				</div>
+			</div>
+			<div id="footer" orient="vertical">
+				<div id="mainMenu">
+					<change:templateblock type="modules_website_taggedmenu" __tag="contextual_website_website_menu-main" __template="horizontal" __depth="0" />
+				</div>
+				<div id="threadandsearch" orient="horizontal">
+					<div id="search" orient="vertical">
+						<change:templateblock type="modules_website_switchlanguage" __viewall="false" __showflag=""/>
+						<change:templateblock type="modules_solrsearch_form" />
+					</div>
+					<div id="thread" orient="vertical">
+						<change:templateblock type="modules_website_thread" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</change:template>
+</change:templates>

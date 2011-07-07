@@ -1,0 +1,60 @@
+h1.heading-one { 
+	background-color: #f00;
+	background-image: -moz-linear-gradient(center bottom, #f00 30%, #c00 70%);
+}
+h2.heading-two { 
+	background-color: #f00;
+	background-image: -moz-linear-gradient(right bottom, #f00 30%, #c00 70%);
+}
+h3.heading-three { 
+	background-color: #f00;
+	background-image: -moz-linear-gradient(center bottom, #c77 30%, #f77 70%);
+}
+h4.heading-four { 
+	background-color: #f00;
+	background-image: -moz-linear-gradient(right bottom, #c77 30%, #f77 70%);
+}
+h5.heading-five { 
+	background-color: #f00;
+	background-image: -moz-linear-gradient(center bottom, #caa 30%, #faa 70%);
+}
+h6.heading-six { 
+	background-color: #f00;
+	background-image: -moz-linear-gradient(right bottom, #caa 30%, #faa 70%);
+}
+
+.document-list {
+	background-color: #9f9;
+}
+.document-list .odd {
+	background-color: #bfb;
+}
+.document-list .even {
+	background-color: #dfd;
+}
+.inline-list {
+	background-color: #99f;
+}
+.menu-list {
+	background-color: #ee6;
+}
+.cloud-list {
+	background-color: #6ee;
+}
+.mini-navigation {
+	background-color: #0f9;
+}
+.cmxform {
+	background-color: #d9f;
+}
+
+.messages li{
+	color: green;
+}
+
+.modules-catalog .productlist-options{
+	background-color: #eee;
+}
+.ecom-list ol.table-view li{
+	background-color: #eee;
+}

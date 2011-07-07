@@ -1,0 +1,507 @@
+/*
+	RICHTEXT
+	Liens, Polices, Fond table th  : #000000;
+	Fonds de couleur : #f9f9f9;
+	Bordures : #cccccc;
+*/
+
+
+a.link,
+a.link:active,
+a.anchor{
+	color:#000000 /*@var alinkcolor*/;
+	text-decoration:underline /*@var alinkdecoration*/;
+}
+
+a.link:visited{ 
+	color:#cccccc /*@var alinkhovercolor*/; 
+	text-decoration:underline /*@var alinkdecoration*/; 
+}
+
+a.link:hover,
+a.anchor:hover,
+a.link:active{
+	color:#cccccc /*@var alinkhovercolor*/;
+	text-decoration:none /*@var alinkhoverdecoration*/;
+}
+
+h1.title, .heading-one,
+h2.title, .heading-two,
+h3.title, .heading-three,
+h4.title, .heading-four{
+	margin-bottom:10px /*@var generaltitlemarginbottom*/;
+}
+
+h1.title,
+.heading-one{
+	/*font-size: 30px;*/
+	font-size: 197% /*@var h1fontsize*/;
+	color: #000000 /*@var h1color*/;
+}
+
+h1.title a.link,
+.heading-one a.link{
+	color:#000000 /*@var h1alinkcolor*/;
+	text-decoration:underline /*@var h1alinkdecoration*/;
+}
+
+h1.title a.link:visited,
+.heading-one a.link:visited{ 
+	color:#cccccc /*@var h1alinkhovercolor*/; 
+	text-decoration:underline /*@var h1alinkdecoration*/; 
+}
+
+h1.title a.link:hover,
+.heading-one a.link:hover{
+	color:#cccccc /*@var h1alinkhovercolor*/;
+	text-decoration:none /*@var h1alinkhoverdecoration*/;
+}
+
+h2.title,
+.heading-two{
+	/*font-size: 24px;*/
+	font-size: 182% /*@var h2fontsize*/;
+	color: #000000 /*@var h2color*/;
+}
+
+h2.title a.link,
+.heading-two a.link{
+	color:#000000 /*@var h2alinkcolor*/;
+	text-decoration:underline /*@var h2alinkdecoration*/;
+}
+
+h2.title a.link:visited,
+.heading-two a.link:visited{ 
+	color:#cccccc /*@var h2alinkhovercolor*/; 
+	text-decoration:underline /*@var h2alinkdecoration*/; 
+}
+
+h2.title a.link:hover,
+.heading-two a.link:hover{
+	color:#cccccc /*@var h2alinkhovercolor*/;
+	text-decoration:none /*@var h2alinkhoverdecoration*/;
+}
+
+h3.title,
+.heading-three{
+	/*font-size: 18px;*/
+	font-size: 167% /*@var h3fontsize*/;
+	color: #000000 /*@var h3color*/;
+}
+
+h3.title a.link,
+.heading-three a.link{
+	color:#000000 /*@var h3alinkcolor*/;
+	text-decoration:underline /*@var h3alinkdecoration*/;
+}
+
+h3.title a.link:visited,
+.heading-three a.link:visited{ 
+	color:#cccccc /*@var h3alinkhovercolor*/; 
+	text-decoration:underline /*@var h3alinkdecoration*/; 
+}
+
+h3.title a.link:hover,
+.heading-three a.link:hover{
+	color:#cccccc /*@var h3alinkhovercolor*/;
+	text-decoration:none /*@var h3alinkhoverdecoration*/;
+}
+
+h4.title,
+.heading-four{
+	/*font-size: 16px;*/
+	font-size: 153.9% /*@var h4fontsize*/;
+	color: #000000 /*@var h4color*/;
+}
+
+h4.title a.link,
+.heading-four a.link{
+	color:#000000 /*@var h4alinkcolor*/;
+	text-decoration:underline /*@var h4alinkdecoration*/;
+}
+
+h4.title a.link:visited,
+.heading-four a.link:visited{ 
+	color:#cccccc /*@var h4alinkhovercolor*/; 
+	text-decoration:underline /*@var h4alinkdecoration*/; 
+}
+
+h4.title a.link:hover,
+.heading-four a.link:hover{
+	color:#cccccc /*@var h4alinkhovercolor*/;
+	text-decoration:none /*@var h4alinkhoverdecoration*/;
+}
+
+table.normal caption{
+	/*font-size: 15px;*/
+	font-size: 1.25em /*@var h4fontsize*/;	
+}
+
+table.normal tr td,
+table.normal tr th{
+	border-width: 1px /*@var tableborderwidth*/;
+}
+
+table.normal tr th{
+	color:#fff /*@var tablethfontcolor*/;
+	background-color:#000000 /*@var tablethbgcolor*/;
+	font-weight:bold /*@var tablethfontweight*/;
+	border-color: #000000 /*@var tablethbgcolor*/;
+}
+
+table.normal tr th{
+	border-bottom-color:#cccccc /*@var tablebordercolor*/;	
+}
+
+table.normal tr td{
+	border-color:#cccccc /*@var tablebordercolor*/;
+	background-color: transparent /*@var tabletrevenbgcolor*/;	
+}
+
+
+
+
+/*
+	COMMON
+	
+		sitefontcolor: #000000;
+		generalmarkupmarginbottom: 20px;
+		generalinblockpadding: 6px;
+		generalbordercolor: #cccccc;
+		generalbgcolor: #f9f9f9; (odd)
+		evenbgcolor: transparent (even)
+		 		
+*/
+
+body, textarea, input{
+/* List of web safe fonts : http://www.fonttester.com/help/list_of_web_safe_fonts.html */
+	font-family: Arial, Helvetica, sans-serif /*@var sitefontfamily*/;
+	/*
+	font-family: 'Arial Black', Gadget, sans-serif;
+	font-family: 'Bookman Old Style', serif;
+	font-family: 'Comic Sans MS', cursive;
+	font-family: Courier, monospace;
+	font-family: 'Courier New', Courier, monospace;
+	font-family: Garamond, serif;
+	font-family: Georgia, serif;
+	font-family: Impact, Charcoal, sans-serif;
+	font-family: 'Lucida Console', Monaco, monospace;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-family: 'MS Sans Serif', Geneva, sans-serif;
+	font-family: 'MS Serif', 'New York', sans-serif;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	font-family: Symbol, sans-serif;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-family: 'Times New Roman', Times, serif;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-family: Verdana, Geneva, sans-serif;
+	font-family: Webdings, sans-serif;
+	font-family: Wingdings, 'Zapf Dingbats', sans-serif;
+	*/
+}
+
+body{
+	/*
+	10px > 77%
+	11px > 85%
+	12px > 93% (was 93)
+	13px > 100%
+	14px > 108% (was 107)
+	15px > 116% (was 114)
+	16px > 123.1% (was 122)
+	17px > 131% (was 129)
+	18px > 138.5% (was 136)
+	19px > 146.5% (was 144)
+	20px > 153.9% (was 152)
+	21px > 161.6% (was 159)
+	22px > 167%
+	23px > 174%
+	24px > 182%
+	25px > 189%
+	26px > 197% 
+	*/	
+	line-height: 1.33; /*@var sitelineheight*/;	
+	color: #000000 /*@var sitefontcolor*/;
+}
+
+/* Site Font Color */
+/* FORM */
+form.cmxform legend,
+legend,
+form.cmxform input.textfield,
+form.cmxform input.date-picker,
+form.cmxform input.passwordinput,
+form.cmxform textarea,
+form.cmxform select,
+input.textfield,
+textarea,
+select,
+form.cmxform option,
+option{
+	color:#000000 /*@var sitefontcolor*/;
+}
+
+/* General Markup Margin Bottom */
+/* RICHTEXT */
+table.normal,
+p.normal,
+ul.normal,
+ol.normal,
+dl.normal,
+blockquote,
+hr,
+code,
+pre,
+/* FORM */
+form.cmxform fieldset,
+fieldset,
+p.buttons,
+form.cmxform .description,
+form.cmxform .bottom-description,
+form.cmxform .free-text,
+form.cmxform ul.errors,
+/* GENERIC */
+.website-block,
+.row-100,
+div.normal,
+.valign-buttons,
+ul.mini-navigation,
+.pagination{
+	margin-bottom:20px /*@var generalmarkupmarginbottom*/;
+}
+
+/* General Border Color */
+/* RICHTEXT */
+blockquote{
+	border-left-color: #cccccc /*@var generalbordercolor*/;	
+}
+
+blockquote:before {
+	color: #cccccc /*@var generalbordercolor*/;
+}
+
+hr{
+	color: #cccccc /*@var generalbordercolor*/;
+	background-color: #cccccc /*@var generalbordercolor*/;
+}
+
+abbr, acronym{
+	border-bottom-color: #cccccc /*@var generalbordercolor*/;		
+}
+
+/* FORM */
+form.cmxform fieldset,
+fieldset,
+form.cmxform input.textfield,
+form.cmxform input.date-picker,
+form.cmxform input.passwordinput,
+form.cmxform textarea,
+form.cmxform select,
+input.textfield,
+textarea,
+select,
+form.cmxform input.button,
+input.button,
+a.button{
+	border-color:#cccccc /*@var generalbordercolor*/;
+}
+
+/* General Background Color */
+/* RICHTEXT */
+table.normal tr.odd td,
+table.normal tbody tr.odd td,
+blockquote,
+.odd{
+	background-color: #f9f9f9 /*@var generalbgcolor*/;
+}
+
+.even{
+	background-color: transparent /*@var evenbgcolor*/;	
+}
+
+/* General inBlock Padding */
+/* RICHTEXT */
+table.normal tr td,
+table.normal tr th{
+	padding: 6px /*@var generalinblockpadding*/;
+}
+
+ul.document-list,
+ol.document-list{
+	border-top-color: #cccccc /*@var generalbordercolor*/;
+	margin-bottom: 20px /*@var generalmarkupmarginbottom*/;		 
+}
+
+ul.document-list > li,
+ol.document-list > li{
+	border-bottom-color: #cccccc /*@var generalbordercolor*/;
+	padding: 6px /*@var generalinblockpadding*/;	
+}
+
+
+
+/*
+ 
+	FORMS 
+	@var labelwidth
+ 
+ */
+
+form.cmxform fieldset,
+fieldset{
+	border-width:1px /*@var fieldsetborderwidth*/;
+}
+
+form.cmxform legend,
+legend{
+	font-size: 150% /*@var h3fontsize*/;
+	font-weight: bold /*@var labelfontweight*/;
+}
+
+form.cmxform label{
+	text-align:right /*@var labeltextalign*/;
+	width:33% /*@var labelwidth*/;
+	font-weight: bold /*@var labelfontweight*/;
+}
+
+form.cmxform input.textfield,
+form.cmxform input.date-picker,
+form.cmxform input.passwordinput,
+form.cmxform textarea,
+form.cmxform select,
+input.textfield,
+textarea,
+select{
+	background-color:#ffffff /*@var formcontrolbgcolor*/;
+}
+
+form.cmxform input.textfield,
+form.cmxform input.date-picker,
+form.cmxform input.passwordinput,
+form.cmxform select,
+input.textfield,
+select{
+	line-height: 1.33 /*@var sitelineheight*/;
+}
+
+form.cmxform option,
+option{
+	background-color:#ffffff /*@var formcontrolbgcolor*/;
+}
+
+form.cmxform input.button,
+input.button,
+a.button{
+	border-width:1px /*@var buttonborderwidth*/;
+	background-color:#000000 /*@var buttonbgcolor*/;
+	color:#ffffff /*@var buttontextcolor*/;
+	font-weight: bold /*@var labelfontweight*/;
+}
+
+form.cmxform input.button:hover,
+input.button:hover,
+a.button:hover{
+	color: #000000 /*@var buttonhovertextcolor*/;
+	background: #cccccc /*@var buttonhoverbgcolor*/;
+}
+
+
+
+form.cmxform fieldset.radio,
+fieldset.radio{
+	font-weight: bold /*@var labelfontweight*/;
+	left: 33% /*@var labelwidth*/;
+}
+
+form.cmxform fieldset.radio legend,
+fieldset.radio legend{
+	width: 33% /*@var labelwidth*/;
+	text-align: right /*@var labeltextalign*/;	
+}
+
+form.cmxform fieldset.radio ol,
+fieldset.radio ol{
+	margin-right: 33% /*@var labelwidth*/;
+}
+
+span.captcha{
+	width: 33% /*@var labelwidth*/;
+}
+
+p.buttons{
+	line-height: 22px; /* hauteur du bouton standard */
+	margin-top: 20px /*@var generalmarkupmarginbottom*/;
+}
+
+form.cmxform p.help-text{
+	margin-left: 33% /*@var labelwidth*/;
+}
+
+
+/*
+	COMMON ECOM
+	
+		generalbordercolor: #cccccc;
+		generalmarkupmarginbottom: 20px;
+		generalbgcolor: #f9f9f9;
+		evenbgcolor: transparent;		
+	
+*/
+
+
+
+/* General Markup Margin Bottom */
+.modules-order ul.messages,
+ol.ecom-adresses{
+	margin-bottom:20px /*@var generalmarkupmarginbottom*/;
+}
+
+/* General Border Color */
+.modules-order ul.steps li{
+	border-color: #cccccc /*@var generalbordercolor*/;
+}
+
+/* General Background Color */
+.modules-order ul.steps li{
+	background-color: #f9f9f9 /*@var generalbgcolor*/;
+}
+
+/* Ecom Current Background Color */
+.modules-order ul.steps li.current,
+ol.ecom-adresses li.current{
+	background-color: transparent /*@var evenbgcolor*/;
+}
+
+
+
+.modules-order table.payment-information tr td{
+	border-top-color: #cccccc /*@var tablebordercolor*/;
+	background-color: transparent /*@var tabletrevenbgcolor*/;	
+}
+
+.modules-order table.payment-information tr td.pricetotal{
+	color:#fff /*@var tablethfontcolor*/;
+}
+
+.modules-order table.payment-information tr td.pricetotal{
+	background-color:#000000 /*@var tablethbgcolor*/;	
+}
+
+
+
+ol.ecom-adresses li{
+	border-color: #cccccc /*@var generalbordercolor*/;
+	background-color: #f9f9f9 /*@var generalbgcolor*/;	
+}
+
+ol.ecom-adresses dt{
+	color:#fff /*@var tablethfontcolor*/;
+	background-color:#000000 /*@var tablethbgcolor*/;
+	font-weight:bold /*@var tablethfontweight*/;
+	border-color: #000000 /*@var tablethbgcolor*/;
+	border-bottom-color:#cccccc /*@var tablebordercolor*/;			
+}
+
+.modules-order blockquote dt{
+	font-size: 150% /*@var h3fontsize*/;
+}

@@ -1,0 +1,15 @@
+#contentLocation{
+	width: 950px;
+	min-width: 950px;
+	max-width: 950px;
+}
+#content-block{
+	width: 736px;
+	min-width: 736px;
+	max-width: 736px;
+}
+#sidebar-block{
+	width: 214px;
+	min-width: 214px;
+	max-width: 214px;
+}
