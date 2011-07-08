@@ -84,8 +84,8 @@
 	background: #666 !important;
 	padding: 2px;
 }
-#tools #languages .cblock,
-#tools2 #languages2 .cblock {
+#tools #languages ul,
+#tools2 #languages2 ul {
 	background: #666 !important;
 	padding: 3px;
 }
