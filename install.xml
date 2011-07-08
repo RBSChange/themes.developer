@@ -4,9 +4,9 @@
 	<rootfolder module="theme">
 		<theme id="developer" byCodename="developer" label="Développeur" description="Thème vierge destiné au développement de modules standards.">
 			<pagetemplate byCodename="developer/simple" doctype="XHTML-1.0-Strict" useprojectcss="true"
-				cssscreen="themes.developer.simple" cssprint="themes.developer.print" />
+				cssscreen="themes.developer.simple,themes.developer.developer-colors" cssprint="themes.developer.print" />
 			<pagetemplate byCodename="developer/onecolumn" doctype="XHTML-1.0-Strict" useprojectcss="true"
-				cssscreen="themes.developer.onecolumn" cssprint="themes.developer.print" />
+				cssscreen="themes.developer.onecolumn,themes.developer.developer-colors" cssprint="themes.developer.print" />
 		</theme>
 	</rootfolder>
 </script>

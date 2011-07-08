@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sections>
+	<section name="main" image="{IconsBase}/small/template.png">
+		<field name="sitefontfamily" type="dropdownlist" listid="modules_skin/fontstyle" initialvalue="Arial, Helvetica, sans-serif" hidehelp="true" />
+		<field name="sitefontcolor" type="color" initialvalue="#000000" hidehelp="true" />
+		<field name="generalmarkupmarginbottom" type="size" allowunits="em px" initialvalue="20px" hidehelp="true" />
+		<field name="generalbordercolor" type="color" initialvalue="#cccccc" hidehelp="true" />
+		<field name="generalbgcolor" type="color" initialvalue="#f9f9f9" hidehelp="true" />
+		<field name="evenbgcolor" type="color" initialvalue="transparent" hidehelp="true" />
+		<field name="generalinblockpadding" type="size" allowunits="em px" initialvalue="6px" hidehelp="true" />
+		<field name="alinkcolor" type="color" initialvalue="#000000" hidehelp="true" />
+		<field name="alinkdecoration" type="dropdownlist" listid="modules_skin/textdecoration" initialvalue="underline" hidehelp="true" />
+		<field name="alinkhovercolor" type="color" initialvalue="#cccccc" hidehelp="true" />
+		<field name="alinkhoverdecoration" type="dropdownlist" listid="modules_skin/textdecoration" initialvalue="none" hidehelp="true" />
+		<field name="sitelineheight" type="double" initialvalue="1.33" hidehelp="true" />
+	</section>
+	<section name="headings" image="{IconsBase}/small/richtext/heading.png">
+		<field name="generaltitlemarginbottom" type="size" allowunits="em px" initialvalue="10px" hidehelp="true" />
+		<field name="h1fontsize" type="size" allowunits="em px %" initialvalue="197%" hidehelp="true" />
+		<field name="h1color" type="color" initialvalue="#000000" hidehelp="true" />
+		<field name="h1alinkcolor" type="color" initialvalue="#000000" hidehelp="true" />
+		<field name="h1alinkdecoration" type="dropdownlist" listid="modules_skin/textdecoration" initialvalue="underline" hidehelp="true" />
+		<field name="h1alinkhovercolor" type="color" initialvalue="#cccccc" hidehelp="true" />
+		<field name="h1alinkhoverdecoration" type="dropdownlist" listid="modules_skin/textdecoration" initialvalue="none" hidehelp="true" />
+		<field name="h2fontsize" type="size" allowunits="em px %" initialvalue="182%" hidehelp="true" />
+		<field name="h2color" type="color" initialvalue="#000000" hidehelp="true" />
+		<field name="h2alinkcolor" type="color" initialvalue="#000000" hidehelp="true" />
+		<field name="h2alinkdecoration" type="dropdownlist" listid="modules_skin/textdecoration" initialvalue="underline" hidehelp="true" />
+		<field name="h2alinkhovercolor" type="color" initialvalue="#cccccc" hidehelp="true" />
+		<field name="h2alinkhoverdecoration" type="dropdownlist" listid="modules_skin/textdecoration" initialvalue="none" hidehelp="true" />
+		<field name="h3fontsize" type="size" allowunits="em px %" initialvalue="150%" hidehelp="true" />
+		<field name="h3color" type="color" initialvalue="#000000" hidehelp="true" />
+		<field name="h3alinkcolor" type="color" initialvalue="#000000" hidehelp="true" />
+		<field name="h3alinkdecoration" type="dropdownlist" listid="modules_skin/textdecoration" initialvalue="underline" hidehelp="true" />
+		<field name="h3alinkhovercolor" type="color" initialvalue="#cccccc" hidehelp="true" />
+		<field name="h3alinkhoverdecoration" type="dropdownlist" listid="modules_skin/textdecoration" initialvalue="none" hidehelp="true" />
+		<field name="h4fontsize" type="size" allowunits="em px %" initialvalue="1.25em" hidehelp="true" />
+		<field name="h4color" type="color" initialvalue="#000000" hidehelp="true" />
+		<field name="h4alinkcolor" type="color" initialvalue="#000000" hidehelp="true" />
+		<field name="h4alinkdecoration" type="dropdownlist" listid="modules_skin/textdecoration" initialvalue="underline" hidehelp="true" />
+		<field name="h4alinkhovercolor" type="color" initialvalue="#cccccc" hidehelp="true" />
+		<field name="h4alinkhoverdecoration" type="dropdownlist" listid="modules_skin/textdecoration" initialvalue="none" hidehelp="true" />
+	</section>
+	<section name="tables" image="{IconsBase}/small/richtext/table.png">
+		<field name="tableborderwidth" type="size" allowunits="em px %" initialvalue="1px" hidehelp="true" />
+		<field name="tablethfontcolor" type="color" initialvalue="#fff" hidehelp="true" />
+		<field name="tablethbgcolor" type="color" initialvalue="#000000" hidehelp="true" />
+		<field name="tablethfontweight" type="dropdownlist" listid="modules_skin/fontweight" initialvalue="bold" hidehelp="true" />
+		<field name="tablebordercolor" type="color" initialvalue="#cccccc" hidehelp="true" />
+		<field name="tabletrevenbgcolor" type="color" initialvalue="transparent" hidehelp="true" />
+	</section>
+	<section name="forms" image="{IconsBase}/small/form.png">
+		<field name="fieldsetborderwidth" type="size" allowunits="em px" initialvalue="1px" hidehelp="true" />
+		<field name="labelfontweight" type="dropdownlist" listid="modules_skin/fontweight" initialvalue="bold" hidehelp="true" />
+		<field name="labeltextalign" type="dropdownlist" listid="modules_skin/halignment" initialvalue="right" hidehelp="true" />
+		<field name="labelwidth" type="size" allowunits="em px %" initialvalue="33%" hidehelp="true" />
+		<field name="formcontrolbgcolor" type="color" initialvalue="#ffffff" hidehelp="true" />
+		<field name="buttonborderwidth" type="size" allowunits="em px" initialvalue="1px" hidehelp="true" />
+		<field name="buttonbgcolor" type="color" initialvalue="#000000" hidehelp="true" />
+		<field name="buttontextcolor" type="color" initialvalue="#ffffff" hidehelp="true" />
+		<field name="buttonhovertextcolor" type="color" initialvalue="#000000" hidehelp="true" />
+		<field name="buttonhoverbgcolor" type="color" initialvalue="#cccccc" hidehelp="true" />
+	</section>
+</sections>
