@@ -1,8 +1,7 @@
-body#simple,
-body#onecolumn{
-	padding-bottom: 100px !important; 
+#contentLocation {
+	clear: both !important;
 }
-#contextual-menu{
+#contextual-menu {
 	background: #000 !important;
 	color: #eee !important;
 	padding: 10px !important;
@@ -13,49 +12,84 @@ body#onecolumn{
 #contextual-menu a:hover {
 	color: #fff !important;
 }
-#footer {
+#tools {
 	background: #000 !important;
 	border: 1px 666 solid !important;
 	position: fixed !important;
-	bottom: 0 !important;
+	top: 0 !important;
 	left: 0 !important;
 	width: 100% !important;
 	z-index: 1000000 !important;
 	color: #ccc !important;
 }
-#footer #mainMenu {
+#tools2 {
+	background: #000 !important;
+	border: 1px 666 solid !important;
+	color: #ccc !important;
+}
+#tools #mainMenu,
+#tools2 #mainMenu2 {
 	padding: 10px 5px 5px 5px !important;
 }
-#footer #mainMenu li {
+#tools #mainMenu li,
+#tools2 #mainMenu2 li {
 	background: #666 !important;
 	padding: 5px !important;
 	margin: 3px 5px !important;
 }
-#footer #mainMenu li:hover {
+#tools #mainMenu li:hover,
+#tools2 #mainMenu2 li:hover {
 	background: #888 !important;
 	color: #ddd !important;
 }
-#footer #mainMenu li a {
+#tools #mainMenu li a,
+#tools2 #mainMenu2 li a {
 	color: #eee !important;
 }
-#footer #mainMenu li a:hover {
+#tools #mainMenu li a:hove,
+#tools2 #mainMenu2 li a:hover {
 	color: #fff !important;
 }
-#footer #thread {
+#tools #thread,
+#tools2 #thread2 {
 	padding: 5px !important;
 }
-#footer #thread li {
+#tools #thread li,
+#tools2 #thread2 li {
 	padding: 5px !important;
 }
-#footer #thread li a,
-#footer #thread li a:visited,
-#footer #thread li a:active {
+#tools #thread li a,
+#tools #thread li a:visited,
+#tools #thread li a:active,
+#tools2 #thread2 li a,
+#tools2 #thread2 li a:visited,
+#tools2 #thread2 li a:active {
 	color: #bbb !important;
 }
-#footer #thread .thread-separator {
+#tools #thread .thread-separator,
+#tools2 #thread2 .thread-separator {
 	padding-left: 10px !important;
 }
-#footer #search {
+#tools #search, #tools #languages,
+#tools2 #search2, #tools2 #languages2 {
 	float: right !important;
-	padding: 10px !important;
+	padding: 0 10px 10px 10px !important;
+}
+#tools #languages,
+#tools2 #languages2 {
+	padding-right: 0 !important;
+}
+#tools #search .cblock,
+#tools2 #search2 .cblock {
+	background: #666 !important;
+	padding: 2px;
+}
+#tools #languages .cblock,
+#tools2 #languages2 .cblock {
+	background: #666 !important;
+	padding: 3px;
+}
+#tools #search .cblock form,
+#tools2 #search2 .cblock form {
+	background: #666 !important;
 }
