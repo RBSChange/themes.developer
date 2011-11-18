@@ -47,14 +47,14 @@
 			</div>
 		</div>
 	</change:template>
-	<change:template id="top" content-type="xul" orient="vertical">
-		<div id="contentLocation" orient="horizontal">
-			<div id="content" orient="vertical">
+	<change:template id="top" content-type="xul">
+		<hbox id="contentLocation">
+			<vbox id="content">
 				<change:content id="content-block" />
-			</div>
-			<div id="sidebar" orient="vertical">
+			</vbox>
+			<vbox id="sidebar">
 				<change:content id="sidebar-block"/>
-			</div>
-		</div>
+			</vbox>
+		</hbox>
 	</change:template>
 </change:templates>
