@@ -4,33 +4,17 @@
 		<div id="top" orient="vertical">
 			<div id="tools" orient="vertical">
 				<div id="mainMenu">
-					<change:templateblock editname="menu" type="modules_website_taggedmenu" __tag="contextual_website_website_menu-main" __template="horizontal" __depth="0" />
+					<change:templateblock type="modules_website_ConfigurableMenu" editname="mainmenu" __mode="tag" __tag="contextual_website_website_menu-main" __displayMode="default" __depth="1" />
 				</div>
 				<div id="threadandsearch" orient="horizontal">
 					<div id="search" orient="horizontal">
-						<change:templateblock editname="search" type="modules_solrsearch_form" />
+						<change:templateblock type="modules_solrsearch_form" editname="searchform" />
 					</div>
 					<div id="languages" orient="horizontal">
-						<change:templateblock editname="language" type="modules_website_switchlanguage" __viewall="false" __showflag=""/>
+						<change:templateblock type="modules_website_switchlanguage" editname="switchlangage" __viewall="false" __showflag=""/>
 					</div>
 					<div id="thread" orient="vertical">
-						<change:templateblock type="modules_website_thread" />
-					</div>
-				</div>
-			</div>
-			<div id="tools2" orient="vertical">
-				<div id="mainMenu2">
-					<change:templateblock editname="menu2" type="modules_website_taggedmenu" __tag="contextual_website_website_menu-main" __template="horizontal" __depth="0" />
-				</div>
-				<div id="threadandsearch2" orient="horizontal">
-					<div id="search2" orient="horizontal">
-						<change:templateblock editname="search2" type="modules_solrsearch_form" />
-					</div>
-					<div id="languages2" orient="horizontal">
-						<change:templateblock editname="language2" type="modules_website_switchlanguage" __viewall="false" __showflag=""/>
-					</div>
-					<div id="thread2" orient="vertical">
-						<change:templateblock type="modules_website_thread" />
+						<change:templateblock type="modules_website_thread" editname="thread" />
 					</div>
 				</div>
 			</div>
